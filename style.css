@@ -81,6 +81,7 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+
 .header .flex .logo {
   font-size: 2.5rem;
   color: var(--white);
@@ -93,9 +94,8 @@ section {
   color: var(--white);
 }
 .header .flex .navbar a:hover {
-color: var(--seccolor);
+  color: var(--seccolor);
 }
-
 
 #menu-btn {
   cursor: pointer;
@@ -161,7 +161,7 @@ color: var(--seccolor);
   justify-content: center;
   gap: 1.5rem;
 }
-.cont .box img{
+.cont .box img {
   width: 4.4rem;
   height: 4.4rem;
 }
@@ -338,7 +338,7 @@ color: var(--seccolor);
   .contact .clm {
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: 0.5rem;
     margin: 2rem 3rem;
     justify-content: left;
   }
@@ -386,7 +386,7 @@ color: var(--seccolor);
   .contact .clm {
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin: 1rem 3rem;
     justify-content: left;
   }
@@ -413,8 +413,11 @@ color: var(--seccolor);
   .about .btn {
     justify-content: left;
   }
-  .contact .icons{
+  .contact .icons {
     justify-content: center;
+  }
+  .contact .items{
+    font-size: 0.1rem;
   }
 
   /*                           SMALLER PHONES */
