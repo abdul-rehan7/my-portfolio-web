@@ -413,6 +413,9 @@ color: var(--seccolor);
   .about .btn {
     justify-content: left;
   }
+  .contact .icons{
+    justify-content: center;
+  }
 
   /*                           SMALLER PHONES */
 
