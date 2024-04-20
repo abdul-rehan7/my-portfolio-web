@@ -28,3 +28,7 @@ var swiper = new Swiper(".course-slider", {
     },
   },
 });
+var typed = new Typed('#element', {
+  strings: ['I am a Web Developer', '&amp; a Graphic Designer'],
+  typeSpeed: 50,
+});

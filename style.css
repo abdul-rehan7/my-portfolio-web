@@ -13,6 +13,7 @@
   font-style: normal;
 }
 
+
 :root {
   --green: #35d635;
   --white: #fefbf6;
@@ -81,6 +82,9 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+.content .welcome {
+  font-size: 4rem;
+}
 
 .header .flex .logo {
   font-size: 2.5rem;
@@ -113,12 +117,13 @@ section {
   flex-wrap: wrap-reverse;
   gap: 0rem;
 }
-.home .row .content video {
-  z-index: -1;
+.home .row .content h3 .welcome {
+  font-size: 3.1rem;
 }
 .home .row .content {
   flex: 1 1 40rem;
   text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .home .row .content p {
   flex: 1 1 40rem;
@@ -136,7 +141,7 @@ section {
 .home .row .content h3 {
   font-weight: 600;
   margin-bottom: 1rem;
-  font-size: 9rem;
+  font-size: 5.5rem;
   color: var(--white);
 }
 .home .row .content h3 span {
@@ -346,6 +351,9 @@ section {
     justify-content: left;
     text-align: left;
   }
+  .home .row .content h3 {
+    font-size: 4.1rem;
+  }
 }
 /*                           MOBILE DEVICES     */
 @media only screen and (max-width: 768px) {
@@ -416,8 +424,11 @@ section {
   .contact .icons {
     justify-content: center;
   }
-  .contact .items{
+  .contact .items {
     font-size: 0.1rem;
+  }
+  .home .row .content h3 {
+    font-size: 4.1rem;
   }
 
   /*                           SMALLER PHONES */
@@ -443,6 +454,9 @@ section {
       flex: 1 1 40rem;
       align-items: left;
       text-align: left;
+    }
+    .home .row .content h3 {
+      font-size: 4.1rem;
     }
   }
 }
