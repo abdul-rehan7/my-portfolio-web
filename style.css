@@ -123,7 +123,6 @@ section {
 .home .row .content {
   flex: 1 1 40rem;
   text-align: left;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .home .row .content p {
   flex: 1 1 40rem;
