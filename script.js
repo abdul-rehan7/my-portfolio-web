@@ -29,6 +29,6 @@ var swiper = new Swiper(".course-slider", {
   },
 });
 var typed = new Typed('#element', {
-  strings: ['I am a Web Developer', '&amp; a Graphic Designer'],
+  strings: ['I am a Web Developer', '&amp; a Graphic Designer', 'Let&apos;s Bring your vision to Life!'],
   typeSpeed: 50,
 });
