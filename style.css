@@ -20,7 +20,7 @@
   --Blue: #0999ff;
   --grey: #7e7e7e;
   --seccolor: #3f60cd;
-  --lseccolor: #2a9fae12;
+  --lseccolor: #ffffff1b;
 }
 
 *::selection {
@@ -251,6 +251,10 @@ section {
 .projects .slide p {
   font-size: 1.6rem;
   color: var(--white);
+}
+
+.projects .slide p .npx{
+  color: green;
 }
 
 .swiper-pagination-bullet {
