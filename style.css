@@ -264,16 +264,23 @@ section {
 .contact {
   display: flex;
   flex-direction: row;
+  width: 90%;
+  border-top: 0.1rem solid rgb(52, 54, 94);
 }
 .contact .items {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+.contact .items h3{
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 500;
+}
 .contact .clm {
   display: flex;
   flex-direction: column;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin: 2rem 7rem;
 }
 .contact .icons {
@@ -305,12 +312,16 @@ section {
 .bottom {
   display: flex;
   height: 3rem;
-  width: 100%;
+  width: 90%;
   padding: 1rem 1rem;
-  background-color: #08182e;
+  background-color: transparent;
   justify-content: center;
   text-align: center;
   margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  border-top: .01rem solid rgb(52, 54, 94);
+
   bottom: 0;
 }
 .bottom p {
@@ -325,7 +336,7 @@ section {
   height: 0.1rem;
   width: 90%;
   margin-top: 5rem;
-  background-color: rgb(197, 197, 197);
+  background-color: rgb(52, 54, 94);
 }
 /* =============================MEDIA QUERIES ================================== */
 /*                           TABLETS AND LAPTOPS */
