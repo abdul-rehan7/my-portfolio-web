@@ -171,12 +171,14 @@ section {
   height: 4.4rem;
 }
 .cont .box-cont .box i {
-  font-size: 5rem;
+  padding-top: 2rem;
+  font-size: 6rem;
   color: var(--seccolor);
 }
 .cont .box-cont .box h3 {
   font-size: 2.4rem;
   font-weight: bold;
+  margin-bottom: .5rem;
   color: var(--white);
 }
 .cont .box-cont .box p {
