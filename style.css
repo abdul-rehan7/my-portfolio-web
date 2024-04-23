@@ -52,7 +52,7 @@ section {
   display: flex;
   margin-top: 1rem;
   border-radius: 5rem;
-  width: 15rem;
+  width: 14rem;
   align-items: center;
   justify-content: center;
   background-color: var(--seccolor);
@@ -110,7 +110,8 @@ section {
 }
 
 .home {
-  margin-top: 6rem;
+  margin-top: 10rem;
+  margin-bottom: 7rem;
 }
 .home .row {
   display: flex;
@@ -129,14 +130,19 @@ section {
   flex: 1 1 40rem;
   text-align: left;
   color: white;
+  line-height: 2;
   font-size: 1.4rem;
   margin-bottom: 1.2rem;
 }
 .home .row .image {
   flex: 1 1 30rem;
+  padding-right: 5rem;
+  text-align: right;
+  filter: drop-shadow(1px 1px 12px  rgb(255, 255, 255));
+ 
 }
 .home .row .image img {
-  width: 90%;
+  width: 65%;
 }
 .home .row .content h3 {
   font-weight: 600;
@@ -193,6 +199,7 @@ section {
 }
 .about .row .image {
   flex: 1 1 40rem;
+
 }
 .about .row .image img {
   width: 100%;
@@ -380,6 +387,11 @@ section {
   .home .row .content h3 {
     font-size: 4.3rem;
   }
+  .home .row .image {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
 }
 /*                           MOBILE DEVICES     */
 @media only screen and (max-width: 768px) {
@@ -444,7 +456,7 @@ section {
   }
   .home .row .content p {
     flex: 1 1 40rem;
-    text-align: cente;
+    text-align: center;
   }
   .about .btn {
     justify-content: left;
@@ -458,7 +470,12 @@ section {
   .home .row .content h3 {
     font-size: 4.1rem;
   }
-
+  .home {
+    margin-bottom: 4rem;
+  }
+  .contact .items h3{
+    font-size: 1.2rem;
+  }
   /*                           SMALLER PHONES */
 
   @media only screen and (max-width: 480px) {
