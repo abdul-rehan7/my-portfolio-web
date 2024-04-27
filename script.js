@@ -9,9 +9,9 @@ menuBtn.onclick = () => {
 };
 
 var swiper = new Swiper(".course-slider", {
-  spaceBetween: 20,
-  grabCursor: true,
-  loop: true,
+  spaceBetween: 30,
+  grabCursor: false,
+  loop: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
