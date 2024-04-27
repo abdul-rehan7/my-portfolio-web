@@ -11,7 +11,7 @@ menuBtn.onclick = () => {
 var swiper = new Swiper(".course-slider", {
   spaceBetween: 30,
   grabCursor: false,
-  loop: false,
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
