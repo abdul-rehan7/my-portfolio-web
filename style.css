@@ -13,7 +13,6 @@
   font-style: normal;
 }
 
-
 :root {
   --green: #35d635;
   --white: #fefbf6;
@@ -31,19 +30,17 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-
 }
 ::-webkit-scrollbar {
   display: none;
 }
 
 body {
-  background: #1E0342;
+  background: #1e0342;
   width: 100%;
 }
 section {
-
-  margin: 0px ;
+  margin: 0px;
   width: 100%;
   margin-right: 0;
   padding: 2rem;
@@ -124,7 +121,6 @@ section {
 }
 .home .row .content h3 .welcome {
   font-size: 3.1rem;
- 
 }
 .home .row .content {
   flex: 1 1 40rem;
@@ -143,8 +139,7 @@ section {
   flex: 1 1 30rem;
   padding-right: 5rem;
   text-align: right;
-  filter: drop-shadow(1px 1px 12px  rgba(255, 255, 255, 0.614));
- 
+  filter: drop-shadow(1px 1px 12px rgba(255, 255, 255, 0.614));
 }
 .home .row .image img {
   width: 65%;
@@ -159,7 +154,7 @@ section {
   font-weight: 600;
   color: var(--seccolor);
 }
-.cont{
+.cont {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
@@ -193,7 +188,7 @@ section {
 .cont .box-cont .box h3 {
   font-size: 2.4rem;
   font-weight: bold;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: var(--white);
 }
 .cont .box-cont .box p {
@@ -208,7 +203,6 @@ section {
 }
 .about .row .image {
   flex: 1 1 40rem;
-
 }
 .about .row .image img {
   width: 100%;
@@ -250,10 +244,10 @@ section {
   margin: 4rem;
   padding: 2rem;
 }
-.projects{
+.projects {
   margin-bottom: 15rem;
 }
-.projects a{
+.projects a {
   text-decoration: none;
   color: white;
 }
@@ -266,7 +260,7 @@ section {
   font-size: 2rem;
   color: var(--white);
 }
-.projects h4{
+.projects h4 {
   font-size: 3rem;
   color: rgb(4, 168, 4);
 }
@@ -275,7 +269,7 @@ section {
   color: var(--white);
 }
 
-.projects .slide p .npx{
+.projects .slide p .npx {
   color: green;
 }
 
@@ -300,14 +294,13 @@ section {
   display: flex;
   flex-direction: row;
   width: 90%;
-  
 }
 .contact .items {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.contact .items h3{
+.contact .items h3 {
   font-size: 1.4rem;
   color: white;
   font-weight: 500;
@@ -353,7 +346,7 @@ section {
   justify-content: center;
   text-align: center;
   margin-top: 2rem;
-  border-top: .01rem solid rgb(52, 54, 94);
+  border-top: 0.01rem solid rgb(52, 54, 94);
 
   bottom: 0;
 }
@@ -371,41 +364,6 @@ section {
   margin-top: 5rem;
   background-color: rgb(52, 54, 94);
 }
-
-
-@keyframes fadeIn {
-  from {
-    margin-top: 10rem;
-  }
-  to {
-    margin-top: 0rem;
-  }
-}
-
-img, h1 {
-  animation: fadeIn 1.5s ease-in-out;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* =============================MEDIA QUERIES ================================== */
 /*                           TABLETS AND LAPTOPS */
@@ -462,7 +420,12 @@ img, h1 {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .flex .navbar.active {
-    background-color: rgba(255, 255, 255, 0.367); /* Set transparent background */
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.367
+    ); /* Set transparent background */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     backdrop-filter: blur(20px);
   }
@@ -520,7 +483,7 @@ img, h1 {
   .home {
     margin-bottom: 4rem;
   }
-  .contact .items h3{
+  .contact .items h3 {
     font-size: 1.2rem;
   }
   /*                           SMALLER PHONES */
@@ -547,14 +510,14 @@ img, h1 {
       align-items: left;
       text-align: left;
     }
- 
+
     .contact .items {
       font-size: 1rem;
     }
     .home .row .content h3 {
       font-size: 5rem;
     }
-    .projects .slide{
+    .projects .slide {
       width: 10rem;
       height: 40rem;
     }
@@ -564,7 +527,5 @@ img, h1 {
     html {
       font-size: 35%;
     }
-  
-    
   }
 }
