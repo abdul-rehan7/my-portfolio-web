@@ -30,7 +30,7 @@ var swiper = new Swiper(".course-slider", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView:3,
     },
   },
 });
