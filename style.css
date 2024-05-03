@@ -238,11 +238,13 @@ section {
 }
 
 .projects .slide {
-  width: 30rem;
+  width: 45rem;
   height: 45rem;
   background-color: var(--lseccolor);
   border-radius: 0.5rem;
   text-align: center;
+  justify-self: center;
+
   margin: 4rem;
   padding: 2rem;
 }
@@ -531,6 +533,7 @@ font-size: 1.1rem;
   .hero {
     font-size: 1rem;
   }
+
   /*                           SMALLER PHONES */
 
   @media only screen and (max-width: 480px) {
