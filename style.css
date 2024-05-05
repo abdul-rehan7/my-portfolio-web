@@ -18,7 +18,7 @@
   --white: #fefbf6;
   --Blue: #0999ff;
   --grey: #7e7e7e;
-  --seccolor: #135fd8;
+  --seccolor: #33e485 ;
   --lseccolor: #ffffff1b;
 }
 
@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  background: #dedee0;
+  background: #ffffff;
   width: 100%;
 }
 section {
@@ -55,16 +55,16 @@ section {
   justify-content: center;
   background-color: var(--seccolor);
   cursor: pointer;
-  color: var(--white);
+  color: black;
   font-size: 1.5rem;
   font-weight: 500;
   padding: 1rem 3rem;
 }
 .btn:hover {
-  border: 0.1rem solid white;
+  border: 1px solid var(--seccolor);
   font-weight: 500;
   background-color: transparent;
-  color: var(--white);
+  color: var(--seccolor);
 }
 .header {
   position: fixed;
@@ -110,7 +110,7 @@ section {
 }
 
 .home {
-  background: black;
+  background: url('images/bg.png') center/cover no-repeat;
   padding: 15rem 3rem 15rem 3rem;
   width: 100%;
   margin-bottom: 7rem;
