@@ -454,6 +454,7 @@ font-size: 1.1rem;
     transform: rotate(180deg);
   }
   .header .flex .navbar {
+    font-size: 70rem;
     position: absolute;
     top: 99%;
     right: 0;
@@ -540,6 +541,13 @@ font-size: 1.1rem;
     html {
       font-size: 40%;
     }
+    .header .flex .logo {
+      font-size: 4rem;
+    }
+    #menu-btn{
+      font-size: 4rem;
+    }
+
     .about .row .content p {
       justify-content: left;
       text-align: left;
@@ -560,7 +568,7 @@ font-size: 1.1rem;
     }
 
     .contact .items {
-      font-size: 1rem;
+      font-size: 0.5rem;
     }
     .home .row .content h3 {
       font-size: 5rem;
