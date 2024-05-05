@@ -36,7 +36,7 @@ var swiper = new Swiper(".course-slider", {
 });
 var typed = new Typed("#element", {
   strings: [
-    "I am a Web Developer",
+    "A Web Developer",
     "&amp; a Graphic Designer",
     "Let&apos;s Turn your vision to Reality!",
   ],
@@ -47,8 +47,7 @@ function open1() {
   ts.style.display = "Block";
   sec.style.display = "none";
   third.style.display = "none";
-  herobtn1.style.borderBottom = "1px solid orange";
-  herobtn1.style.transition = "0.5s";
+  herobtn1.style.borderBottom = "1.5px solid rgb(0, 0, 0)";
   herobtn2.style.border = "none";
   herobtn3.style.border = "none";
 }
@@ -56,8 +55,7 @@ function open2() {
   ts.style.display = "none";
   sec.style.display = "Block";
   third.style.display = "none";
-  herobtn2.style.borderBottom = "1px solid orange";
-  herobtn2.style.transition = "0.5s";
+  herobtn2.style.borderBottom = "1.5px solid rgb(0, 0, 0)";
   herobtn1.style.border = "none";
   herobtn3.style.border = "none";
 }
@@ -65,8 +63,7 @@ function open3() {
   ts.style.display = "none";
   sec.style.display = "none";
   third.style.display = "Block";
-  herobtn3.style.borderBottom = "1px solid orange";
-  herobtn3.style.transition = "0.5s";
+  herobtn3.style.borderBottom = "1.5px solid rgb(0, 0, 0)";
   herobtn1.style.border = "none";
   herobtn2.style.border = "none";
 }

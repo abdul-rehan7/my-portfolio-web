@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  background: #000000;
+  background: #dedee0;
   width: 100%;
 }
 section {
@@ -72,8 +72,8 @@ section {
   right: 0;
   left: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.075); /* Set transparent background */
-  border-bottom: 1px solid rgba(97, 97, 97, 0.297);
+  background-color: rgba(49, 49, 49, 0.137); /* Set transparent background */
+  border-bottom: 1px solid rgba(97, 97, 97, 0.308);
   backdrop-filter: blur(12px);
 }
 .header .flex {
@@ -110,6 +110,7 @@ section {
 }
 
 .home {
+  background: black;
   padding: 15rem 3rem 15rem 3rem;
   width: 100%;
   margin-bottom: 7rem;
@@ -130,7 +131,7 @@ section {
 .home .row .content p {
   flex: 1 1 40rem;
   text-align: left;
-  color: white;
+  color: rgb(255, 255, 255);
   line-height: 2;
   font-size: 1.4rem;
   margin-bottom: 1.2rem;
@@ -173,6 +174,7 @@ section {
   height: 11rem;
   width: 100%;
   display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.274);
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
@@ -190,11 +192,11 @@ section {
   font-size: 2.4rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: var(--white);
+  color: black;
 }
 .cont .box-cont .box p {
   font-size: 1.6rem;
-  color: var(--white);
+  color: black;
 }
 .about .row {
   display: flex;
@@ -220,16 +222,16 @@ section {
   padding: 1rem 0rem;
   line-height: 2;
   font-size: 1.6rem;
-  color: var(--white);
+  color: black;
 }
 
 .heading {
   font-size: 6rem;
-  color: var(--white);
+  color: black;
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 2.5rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .heading span {
@@ -242,6 +244,7 @@ section {
   height: 45rem;
   background-color: var(--lseccolor);
   border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.331);
   text-align: center;
   justify-self: center;
 
@@ -253,7 +256,8 @@ section {
 }
 .projects a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
 }
 .projects .slide img {
   height: 25rem;
@@ -270,45 +274,40 @@ section {
 }
 .projects .slide p {
   font-size: 1.6rem;
-  color: var(--white);
+  color: black;
 }
 
 .projects .slide p .npx {
   color: green;
 }
-.hero{
+.hero {
   text-align: center;
 }
 .hero .btn-box button {
-
-font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .hero .btn-box button {
-
   padding: 1rem 5rem;
-  background: rgba(255, 255, 255, 0.07);
-  color: white;
+  background: rgba(0, 0, 0, 0.176);
   cursor: pointer;
   margin: 0.5rem;
 }
-
-.hero .btn-box button a:hover {
-  color: orange;
-  transition: 0.5s;
+.hero .btn-box button a{
+  color: rgb(0, 0, 0);
 }
 .btn1 {
-  border-bottom: 1px solid orange;
+  border-bottom: 1.5px solid rgb(0, 0, 0);
 }
-.ts-clm{
+.ts-clm {
   margin-left: 2rem;
-  margin-right:2rem ;
+  margin-right: 2rem;
   padding-top: 2rem;
 }
 
 .sec-clm {
   display: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .third-clm {
@@ -318,7 +317,7 @@ font-size: 1.1rem;
   border: 2px solid white;
 }
 .swiper-pagination-bullet {
-  background-color: #a9a9a9;
+  background-color: #000000;
 }
 
 .swiper-pagination-bullet-active {
@@ -346,7 +345,7 @@ font-size: 1.1rem;
 }
 .contact .items h3 {
   font-size: 1.4rem;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 500;
 }
 .contact .clm {
@@ -359,19 +358,19 @@ font-size: 1.1rem;
   margin-top: 10rem;
 }
 .contact i {
-  color: rgb(138, 138, 138);
+  color: rgb(0, 0, 0);
   flex-direction: row;
   padding: 0.1rem 0.3rem;
 }
 .contact i:hover {
-  color: white;
+  color: rgb(41, 41, 41);
 }
 .contact .clm a {
-  color: rgb(138, 138, 138);
+  color: rgb(83, 83, 83);
   padding: 0.4rem 0.2rem;
 }
 .contact .clm a:hover {
-  color: white;
+  color: rgb(110, 110, 110);
 }
 
 .icons {
@@ -395,11 +394,11 @@ font-size: 1.1rem;
   bottom: 0;
 }
 .bottom p {
-  color: #bcbcbc;
+  color: #000000;
 }
 .bottom a {
   text-decoration: none;
-  color: #bcbcbc;
+  color: #000000;
 }
 
 .bar {
@@ -465,14 +464,9 @@ font-size: 1.1rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .flex .navbar.active {
-    background-color: rgba(
-      255,
-      255,
-      255,
-      0.367
-    ); /* Set transparent background */
+    background-color: rgba(0, 0, 0, 0.361); /* Set transparent background */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(100px);
   }
 
   .header .flex .navbar a {
@@ -544,7 +538,7 @@ font-size: 1.1rem;
     .header .flex .logo {
       font-size: 4rem;
     }
-    #menu-btn{
+    #menu-btn {
       font-size: 4rem;
     }
 
