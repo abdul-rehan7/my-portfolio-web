@@ -18,7 +18,7 @@
   --white: #fefbf6;
   --Blue: #0999ff;
   --grey: #7e7e7e;
-  --seccolor: #33e485 ;
+  --seccolor: #33e485;
   --lseccolor: #ffffff1b;
 }
 
@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #eeeeee;
   width: 100%;
 }
 section {
@@ -110,7 +110,7 @@ section {
 }
 
 .home {
-  background: url('images/bg.png') center/cover no-repeat;
+  background: url("images/bg.png") center/cover no-repeat;
   padding: 15rem 3rem 15rem 3rem;
   width: 100%;
   margin-bottom: 7rem;
@@ -174,7 +174,7 @@ section {
   height: 11rem;
   width: 100%;
   display: flex;
-  border: 1px solid rgba(0, 0, 0, 0.274);
+  border: 1px solid rgba(0, 0, 0, 0.427);
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
@@ -288,12 +288,13 @@ section {
 }
 
 .hero .btn-box button {
-  padding: 1rem 5rem;
+  width: 15rem;
+  padding: 1rem 2rem;
   background: rgba(0, 0, 0, 0.176);
   cursor: pointer;
   margin: 0.5rem;
 }
-.hero .btn-box button a{
+.hero .btn-box button a {
   color: rgb(0, 0, 0);
 }
 .btn1 {
@@ -438,7 +439,15 @@ section {
   .home .row .image {
     text-align: center;
     padding: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+  }
+  .hero .btn-box button {
+    width: 10rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+  .home {
+    background: url("images/mbl-bg.png") center/cover no-repeat;
   }
 }
 /*                           MOBILE DEVICES     */
