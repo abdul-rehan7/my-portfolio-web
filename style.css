@@ -281,6 +281,20 @@ section {
 .projects .slide p .npx {
   color: green;
 }
+.smallbtn{
+  padding: .5rem 2rem;
+  border-radius: .7rem;
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  background-color: greenyellow;
+}
+.smallbtn:hover{
+  background: rgba(172, 255, 47, 0.224);
+  border: 1px solid green;
+}
+.smallbtn a{
+  color: black;
+}
 .hero {
   text-align: center;
 }
