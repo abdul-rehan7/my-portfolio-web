@@ -18,6 +18,12 @@ var swiper = new Swiper(".course-slider", {
   spaceBetween: 30,
   grabCursor: false,
   loop: true,
+  autoplay: {
+    delay:1000, // Set the delay to 1000 milliseconds (1 second)
+    disableOnInteraction: false, // Continue autoplay even if user interacts with swiper
+  },
+  speed: 1000, // Set the speed of slide transitions to 1000 milliseconds (1 second)
+  effect: "slide",
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -30,7 +36,7 @@ var swiper = new Swiper(".course-slider", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView:3,
+      slidesPerView: 3,
     },
   },
 });
