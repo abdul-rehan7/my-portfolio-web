@@ -2,352 +2,317 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
-    
-<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Abdul Rehan | Inspiring Possibilities</title>
+    <title>Microsoft - Official Home Page</title>
   </head>
 
-  <body>
-    <!----------------------------------- HEADER SECTION  ----------------------------------->
-   
-    <header class="header">
-      <section class="flex">
-        <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank" class="logo">Abdul Rehan</a>
-
-        <nav class="navbar">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-      </section>
-    </header>
-
-   <!----------------------------------- HOME SECTION ----------------------------------->
-    <section class="home" id="home">
-      <video src="images/bgvideo.mp4"  autoplay muted loop >
-      </video>
-      <div class="row">
-        <div class="content  .open-sans-font">
-          
-          <h3><span class="welcome">Welcome to My Portfolio</span><br> I am Abdul Rehan <br><span id="element"></span></h3>
-          <p>A passionate website designer dedicated to creating visually stunning and user-friendly websites. With a keen eye for design and a knack for coding, I specialize in crafting custom digital experiences that bring your vision to life.</p>
-
-          <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank" class="btn">Contact Us</a>
+  <body class="text-xs">
+    <div class="nav flex flex-row justify-between items-center md:px-16 px-4">
+      <!-- ============ LEFT =========== -->
+      <div class="LEFT flex md:order-2">
+        <div class="burger md:hidden inline-block cursor-pointer">
+          <div class="h-[0.01rem] rounded-full w-4 bg-black mt-1"></div>
+          <div class="h-[0.01rem] rounded-full w-4 bg-black mt-1"></div>
+          <div class="h-[0.01rem] rounded-full w-4 bg-black mt-1"></div>
         </div>
-
-        <div class="image">
-          <img src="images/Untitled design.png" alt="" />
+        <div class="search cursor-pointer ml-3 md:hidden">
+          <img class="h-4" src="imgs/search.png" alt="" />
         </div>
       </div>
-    </section>
-  <!----------------------------------- CONTAINER SECTION ----------------------------------->
-
-    <section class="cont">
-      <div class="box-cont">
-        <div class="box">
-          <i class="fa-brands fa-html5" style="color: #ff7605;"></i>
-          <div class="content">
-            <h3>HTML 5</h3>
-            <p>Website structuring Markup</p>
+      <!-- ================== MID ================= -->
+      <div class="MID cursor-pointer w-36 md:order-1 flex">
+        <img href=".nav" src="imgs/header.png" alt="" />
+        <div
+          class="absolute -translate-x-96 px-7 md:bg-transparent bg-blue-500 mt-10 md:space-x-7 md:mt-5 md:translate-x-36 md:flex features"
+        >
+          <div
+            class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
+          >
+            Microsoft&nbsp;365
+          </div>
+          <div
+            class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
+          >
+            Office
+          </div>
+          <div
+            class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
+          >
+            Copilot
+          </div>
+          <div
+            class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
+          >
+            Windows
+          </div>
+          <div
+            class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
+          >
+            Support
           </div>
         </div>
-
-        <div class="box">
-          <i class="fa-brands fa-css3-alt" style="color: #0a64ff;"></i>
-          <div class="content">
-            <h3>CSS 3</h3>
-            <p>Web Design StyleSheets</p>
-          </div>
-        </div>
-        <div class="box">
-          <i class="fa-brands fa-square-js" style="color: #f6c204;"></i>
-          <div class="content">
-            <h3>JAVASCRIPT</h3>
-            <p>Client-side scripting</p>
-          </div>
-        </div>
-        <div class="box"><i class="fi fi-brands-typescript" style="color: #0468ff;"></i>
-          <div class="content">
-            <h3>TYPESCRIPT</h3>
-            <p>Strongly-typed JavaScript</p>
-          </div>
-        </div>
-        
-        <div class="box">
-          <i class="fa-brands fa-node" style="color: #43ab0b;"></i>
-          <div class="content">
-            <h3>NODE JS</h3>
-            <p>JS Runtime Environment</p>
-          </div>
-        </div>
-        
-        <div class="box">
-        <img src="images/tail.png" alt="">
-          <div class="content">
-            <h3>TAILWIND</h3>
-            <p>CSS Utility framework</p>
-          </div>
-        </div>
-        
-        
       </div>
-    </section>
-    <center><div class="bar"></div></center>
-
-
- <!----------------------------------- ABOUT SECTION ----------------------------------->
-
-    <section class="about" id="about">
-      <div class="row">
-        <div class="image">
-          <img src="images/about.svg" alt="" />
+      <!-- ================== RIGHT ================= -->
+      <div class="RIGHT md:order-3 flex">
+        <div class="search ml-3 cursor-pointer hidden md:block">
+          <img class="h-5 mr-5 mt-1" src="imgs/search.png" alt="" />
         </div>
+        <img class="h-7 mt-0 mr-4 cursor-pointer" src="imgs/cart.png" alt="" />
+        <img class="h-8 cursor-pointer" src="imgs/acc.png" alt="" />
+      </div>
+    </div>
 
-        <div class="content">
-          <h3>Why Choose us?</h3>
-          <p>
-            Choose us for expert website design that captivates your audience and delivers results. With a focus on creativity and functionality, we bring your vision to life online. Let's elevate your digital presence together.
+    <!-- ===================== SLIDER ==================== -->
+
+    <div
+      class="slider md:px-7 md:mx-12 mx-2 md:h-[85vh] flex py-0 flex-col-reverse md:flex-row bg-[#eaeaea]"
+    >
+      <div
+        class="text-center py-10 px-7 bg-[#d1cfcf] md:bg-transparent md:text-left flex-col md:flex justify-center"
+      >
+        <h1 class="md:text-4xl text-2xl text-center md:text-left text-black">
+          Surface Laptop 4
+        </h1>
+        <p class="md:text-base mt-3">
+          The Surface Laptop 4 is the fourth generation of Surface Laptop which
+          launched on 13 April 2021.
+        </p>
+        <button
+          class="bg-black active:bg-gray-800 text-center mt-2 text-white font-semibold w-20 py-2 rounded-sm px-1"
+        >
+          Buy Now >
+        </button>
+      </div>
+      <div class="img mt-14 md:mt-36 px-7 pb-7">
+        <img src="imgs/laptops.png" alt="" />
+      </div>
+    </div>
+
+    <!-- ================ PROMO SECTION ================== -->
+    <div
+      class="promo md:py-5 md:justify-center mt-4 flex flex-col space-y-2 md:flex-row md:space-y-0"
+    >
+      <div class="item flex mx-4 space-x-2 md:flex-col md:w-36 items-center">
+        <img src="imgs/ic1.png" class="h-5 md:w-7 md:h-7" alt="" />
+        <span class="font-semibold">Get Your Microsoft 365</span>
+      </div>
+      <div class="item flex mx-4 space-x-2 md:flex-col md:w-36 items-center">
+        <img src="imgs/ic2.png" class="h-5 md:w-7 md:h-7" alt="" />
+        <span class="font-semibold">Free XboxCredits</span>
+      </div>
+      <div class="item flex mx-4 space-x-2 md:flex-col md:w-36 items-center">
+        <img src="imgs/ic3.png" class="h-5 md:w-7 md:h-7" alt="" />
+        <span class="font-semibold">Azure Premium Features</span>
+      </div>
+    </div>
+    <hr
+      class="mt-4 mx-4 border-t-2 drop-shadow-xl shadow-black border-gray-50"
+    />
+    <!-- ============================ PRODUCTS ============================== -->
+
+    <div
+      class="my-7 md:w-[91vw] md:mx-12 space-y-10 md:space-y-0 md:pt-8 md:flex md:items-center"
+    >
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod1.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">
+            Designed for life today – and tomorrow
+          </h1>
+          <p class="text-base md:mt-2 pb-4 md:text-xs md:h-24">
+            The next-generation of games. Your goals. Friends and family.
+            Windows 11 was made to bring you closer to everything you love.
           </p>
-
-          <a href="#contact" class="btn">About us</a>
+          <div
+            class="btn px-1 my-0 w-3/5 py-2 md:w-[75%] bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            See if Your PC is Ready
+          </div>
         </div>
       </div>
-    </section>
-    
-<center><div class="bar"></div></center>
-    
-<!----------------------------------- PROJECTS SECTION  ----------------------------------->
-
-
-    <section class="projects" id="projects">
-      <h1 class="heading">Our <span>Projects</span></h1>
-
-
-
-<div class="hero">
-  <div class="btn-box">
-  <button class="btn1" onclick="open1()"><a>TypeScript </a></button>
-  <button class="btn2" onclick="open2()"><a>Front-End Projects</a></button>
-  <button class="btn3" onclick="open3()"><a>Back-End Projects</a></button>
-  </div>
-</div>
-
-
-
-
-<div class="ts-clm">
-
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      
-
-      <div class="swiper course-slider">
-        <div class="swiper-wrapper">
-          <div class="slide swiper-slide">
-            <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/simple-calc" target="_blank"><img src="images/ts-projects/simple-calculator.png" alt=""  /></a>
-            <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/simple-calc" target="_blank">1) SIMPLE CALCULATOR</a> </h3>
-            <p>
-              Performs basic arithmetic operations on two numbers. <br><br>
-              <span class="npx">NPX COMMAND: npx mr76-simple-calculator</span>
-
-            </p>
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod2.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">Microsoft Edge</h1>
+          <p class="text-base md:mt-2 md:text-xs md:h-24">
+            World-class performance with more privacy, more productivity and
+            more value while you browse.
+          </p>
+          <div
+            class="btn px-2 my-3 md:my-7 py-2 w-3/5 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Download Now
           </div>
-          <div class="slide swiper-slide">
-           <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/number-guessing-game" target="_blank"> <img src="images/ts-projects/number-guessing-game.png" alt="" /></a>
-            <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/number-guessing-game" target="_blank">2) NUMBER GUESSING GAME</a> </h3>
-            <p>
-              Prompts user to guess a random number within a specified range. <br><br>
-              <span class="npx">NPX COMMAND: npx mr76-number-guessing-game</span>
-            </p>
+        </div>
+      </div>
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod3.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">Microsoft One Drive</h1>
+          <p class="text-base md:mt-2 md:text-xs md:h-24">
+            Save your files and photos to OneDrive and access them from any
+            device, anywhere.
+          </p>
+          <div
+            class="btn px-2 my-3 py-2 w-2/5 md:my-7 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Learn More
           </div>
-          <div class="slide swiper-slide">
-           <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/todo-list" target="_blank"> <img src="images/ts-projects/todo-list.png" alt="" /></a>
-            <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/todo-list" target="_blank">3) TODO LIST</a> </h3>
-            <p>
-              Manages tasks, allowing users to add, mark, or remove tasks.  <br><br>
-              <span class="npx">NPX COMMAND: npx mr7-todo-list</span>
-            </p>
+        </div>
+      </div>
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod4.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">
+            Designed for life today – and tomorrow
+          </h1>
+          <p class="text-base md:mt-2 md:text-xs md:h-24">
+            Organise your notes and your life.
+          </p>
+          <div
+            class="btn px-2 my-3 md:my-0 py-2 w-2/5 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Learn More
           </div>
-          <div class="slide swiper-slide">
-          <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/atm-machine" target="_blank">  <img src="images/ts-projects/atm-machine.png" alt="" /></a>
-            <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/atm-machine" target="_blank">4) ATM MACHINE</a> </h3>
-            <p>
-              Simulates ATM functionality including balance inquiry, deposits, and withdrawals. <br><br>
-              <span class="npx">NPX COMMAND: npx mr7-atm-machine</span>
-            </p>
-          </div>
-          <div class="slide swiper-slide">
-           <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/currency-converter" target="_blank"> <img src="images/ts-projects/currency-converter.png" alt="" /></a>
-            <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/currency-converter" target="_blank">5) CURRENCY CONVERTER</a> </h3>
-            <p>
-              Converts values between two different currencies. <br><br>
-              <span class="npx">NPX COMMAND: npx mr76-currency-converter</span>
-            </p>
-          </div>
-          <div class="slide swiper-slide">
-            <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/word-counter" target="_blank"><img src="images/ts-projects/word_counter.png" alt="" /></a>
-            <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/word-counter" target="_blank">6) WORDS COUNTER</a> </h3>
-            <p>
-              Counts the number of words in a given paragraph. <br><br>
-              <span class="npx">NPX COMMAND: npx mr76-word-counter</span>
-            </p>
-          </div>
-          <div class="slide swiper-slide">
-            <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/student-management-system" target="_blank"> <img src="images/ts-projects/student-management-system.png" alt="" /></a>
-             <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/student-management-system" target="_blank">7) STUDENT MANAGEMENT SYSTEM</a> </h3>
-             <p>
-              A student management TypeScript program keeps track of student data. <br><br>
-               <span class="npx">NPX COMMAND: npx mr76-sms</span>
-             </p>
-           </div>
-          <div class="slide swiper-slide">
-            <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/adventure-game" target="_blank"> <img src="images/ts-projects/adventure-game.png" alt="" /></a>
-             <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/adventure-game" target="_blank">8) ADVENTURE GAME</a> </h3>
-             <p>
-              Combat with enemies, give damage to them while also recieve damage in return.<br><br>
-               <span class="npx">NPX COMMAND: npx mr76-adventure-game</span>
-             </p>
-           </div>
-           <div class="slide swiper-slide">
-             <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/quiz" target="_blank"> <img src="images/ts-projects/quiz.png" alt="" /></a>
-              <h3> <a href="https://github.com/abdul-rehan7/giaic_node_projects/tree/main/quiz" target="_blank">9) TYPESCRIPT QUIZ</a> </h3>
-              <p>
-               TypeScript Quiz program for Better understanding of the Language<br><br>
-                <span class="npx">NPX COMMAND: npx mr76-quiz</span>
-              </p>
-            </div>
-          </div
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
 
-
-
-<!-- ----------------------------------------SECOND COLOUMN------------------------------------------- -->
-    <div class="sec-clm">
-
-     
-   <section class="projects" id="projects">
-
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        
-  
-        <div class="swiper course-slider">
-          <div class="swiper-wrapper">
-            <div class="slide swiper-slide"">
-              <a href="https://github.com/abdul-rehan7/Web-dev-projects/tree/main/Netflix%20Clone" target="_blank"><img src="images/frontend-web/netflix-clone.png" alt=""  /></a>
-              <h3> <a href="https://github.com/abdul-rehan7/Web-dev-projects/tree/main/Netflix%20Clone" target="_blank">NETFLIX CLONE</a> </h3>
-              <p>
-                <br>
-                Netflix clone for streaming TV & movies, Browsing your favorites with personalized recs. <br><br>
-              <button class="smallbtn"><a href="https://ar-netflix.vercel.app/" target="_blank">Visit</a></button>
-        
-            </div>
+    <div
+      class="my-7 md:w-[91vw] md:mx-12 space-y-10 md:space-y-0 md:pt-8 md:flex md:items-center"
+    >
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod5.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">Get Microsoft Teams for free</h1>
+          <p class="text-base md:mt-2 pb-4 md:text-xs md:h-24">
+            Online meetings, chat and shared cloud storage – all in one place.
+          </p>
+          <div
+            class="btn px-1 my-0 w-3/5 py-2 md:w-[75%] bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Sign up for free
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-     
-
-
-
       </div>
-    
-
-
-      <!-- -----------------------------------------THIRD-COLOUMN--------------------------------------------- -->
-
-      <div class="third-clm">
-
-     
-        <section class="projects" id="projects">
-
-             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-             
-       
-             <div class="swiper course-slider">
-               <div class="swiper-wrapper">
-                 <div class="slide swiper-slide">
-                   <a href="" target="_blank"><img src="images/sec3.jpg" alt=""  /></a>
-                   <h3> <a href="" target="_blank">COMING SOON</a> </h3>
-                   <p>
-                    <br><br>
-                   </p>
-                 </div>
-                
-               </div>
-               <div class="swiper-pagination"></div>
-             </div>
-           </div>
-
-      
-         </div>    
-     </section>
-
-    <!----------------------------------- CONTACT SECTION  ----------------------------------->
-    <section class="contact" id="contact">
-    
-      <div class="items">
-        <div class="clm">
-          <h3>Front-end stack</h3>
-          <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Html 5</a>
-          <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">Css 3</a>
-          <a href="https://en.wikipedia.org/wiki/JS3" target="_blank">Javascript</a>
-          <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank">Tailwind</a>
-  
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod6.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">Copilot for Micoroft 365</h1>
+          <p class="text-base md:mt-2 md:text-xs md:h-24">
+            Save time and focus on the things that matter most with AI in
+            Microsoft 365 for business.
+          </p>
+          <div
+            class="btn px-2 my-3 md:my-7 py-2 w-3/5 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Learn More
+          </div>
         </div>
-        <div class="clm">
-          <h3>Back-end Stack</h3>
-          <a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank">TypeScript</a>
-          <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>
-          <a href="https://en.wikipedia.org/wiki/Next.js" target="_blank">Next.js</a>
-          <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank">React.js</a>
+      </div>
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod7.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">Visual Studio 2022</h1>
+          <p class="text-base md:mt-2 md:text-xs md:h-24">
+            Get the most comprehensive IDE for .NET and C++ developers on
+            Windows for building web, cloud, desktop, mobile apps, services and
+            games.
+          </p>
+          <div
+            class="btn px-2 my-3 py-2 w-4/5 md:my-7 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Download Visual Studio 2022
+          </div>
         </div>
-        <div class="clm">
-          <h3>Artificial Intelligence</h3>
-          <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank">Generative AI</a>
-          <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine Learning</a>
-          <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">Deep Learning</a>
-          <a href="https://en.wikipedia.org/wiki/Prompt_engineering" target="_blank">Prompt Engineering</a>
+      </div>
+      <div
+        class="text-center mx-3 md:w-[25vw] md:h-[60vh] bg-white shadow-black drop-shadow-xl"
+      >
+        <img src="imgs/prod8.jpg" class="w-screen" alt="" />
+        <div class="material text-left py-2 px-5">
+          <h1 class="font-semibold text-xl">
+            Welcome to your Windows 365 cloud PC
+          </h1>
+          <p class="text-base md:mt-2 md:text-xs md:h-24">
+            Securely stream your Windows experience from the Microsoft cloud to
+            any device. Get it today
+          </p>
+          <div
+            class="btn px-2 my-3 md:my-0 py-2 w-2/5 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            Get it today
+          </div>
         </div>
       </div>
     </div>
-    
-    <div class="icons">
-      <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank"> <i class="fa-brands fa-linkedin fa-2xl"></i></a>
-      <a href="https://www.instagram.com/mr_creations76/" target="_blank"> <i class="fa-brands fa-square-instagram fa-2xl"></i></a>
-      <a href="https://twitter.com/mirza_rehan76/" target="_blank"> <i class="fa-brands fa-square-x-twitter fa-2xl"></i></a>
-      <a href="https://github.com/abdul-rehan7/" target="_blank"> <i class="fa-brands fa-square-github fa-2xl"></i></a>
+    <!-- ============================ BOTTOM ============================== -->
+    <div
+      class="w-[100vw] md:w-[100%] md:py-7 md:px-7 flex flex-col md:justify-between md:flex-row h-auto mt-[5rem] space-y-0 bg-gray-100"
+    >
+      <div class="flex flex-col md:flex-row">
+        <ul class="px-5 py-4 space-y-3">
+          <h1 class="font-medium text-lg text-gray-500">Micoroft Store</h1>
+          <li class="text-gray-600 text-xs cursor-pointer">Account Profile</li>
+          <li class="text-gray-600 text-xs cursor-pointer">Download Center</li>
+          <li class="text-gray-600 text-xs cursor-pointer">Returns</li>
+          <li class="text-gray-600 text-xs cursor-pointer">Order Tracking</li>
+        </ul>
+        <ul class="px-5 py-4 space-y-3">
+          <h1 class="font-medium text-lg text-gray-500">Education</h1>
+          <li class="text-gray-600 text-xs cursor-pointer">
+            Microsoft in Education
+          </li>
+          <li class="text-gray-600 text-xs cursor-pointer">
+            Devices for Education
+          </li>
+          <li class="text-gray-600 text-xs cursor-pointer">
+            Microsoft Teams for Education
+          </li>
+          <li class="text-gray-600 text-xs cursor-pointer">
+            Microsoft 365 Education
+          </li>
+        </ul>
+        <ul class="px-5 py-4 space-y-3">
+          <h1 class="font-medium text-lg text-gray-500">Business</h1>
+          <li class="text-gray-600 text-xs cursor-pointer">Micoroft Cloud</li>
+          <li class="text-gray-600 text-xs cursor-pointer">
+            Microsoft Security
+          </li>
+          <li class="text-gray-600 text-xs cursor-pointer">Azure</li>
+          <li class="text-gray-600 text-xs cursor-pointer">
+            Copilot for Microsoft 365
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="px-1 py-2 md:py-0 md:mt-[8rem]">
+          <h1 class="text-xs text-gray-800 flex">
+            <img src="imgs/web.png" class="w-10" alt="" />
+            <p class="mt-3">English (Pakistan)</p>
+          </h1>
+        </ul>
+      </div>
     </div>
-  </section>
-  
-  <!----------------------------------- BOTTOM LINE OF THE WEB  ----------------------------------->
-  <div class="bottom">
-    <p>Designed and maintained by &copy; <a href="https://www.instagram.com/mr_creations76/" target="_blank">mr_creations</a> 2024 | All Rights Reserved</p>
-  </div>
-  
-  
-  
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="script.js"></script>
-    
+
+    <div class="bar text-center bg-gray-500 py-1 text-gray-200">
+      Copyright &copy; Microsoft 2024 | All Rights Reserved
+    </div>
   </body>
 </html>
