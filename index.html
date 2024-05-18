@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abdul Rehan - Passionate Website Developer</title>
   </head>
@@ -13,7 +20,7 @@
       class="nav bg-white fixed z-20 w-[100%] flex flex-row justify-between items-center md:px-16 px-4"
     >
       <!-- ============ LEFT =========== -->
-      <div class="LEFT flex md:order-2">
+      <div   class="LEFT flex md:order-2">
         <div class="burger md:hidden inline-block cursor-pointer">
           <div class="h-[0.01rem] rounded-full w-4 bg-black mt-1"></div>
           <div class="h-[0.01rem] rounded-full w-4 bg-black mt-1"></div>
@@ -25,36 +32,38 @@
       </div>
       <!-- ================== MID ================= -->
       <div class="MID py-1 md:py-2 cursor-pointer w-36 md:order-1 flex">
-        <img href=".slider" src="imgs/header.png" alt="" />
+        <a href="#technologies"><img  src="imgs/header.png" alt="" /></a>
         <div
           class="absolute -translate-x-96 px-7 md:bg-transparent bg-blue-500 mt-10 md:space-x-7 md:mt-4 md:translate-x-36 md:flex features"
         >
-          <div
-            href=".slider"
+          <a
+            href="#technologies"
             class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
           >
             Home
-          </div>
-          <div
+          </a>
+          <a
+            href="#technologies"
             class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
           >
             Technologies
-          </div>
-          <div
+          </a>
+          <a
+            href="#projects"
             class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
           >
             Projects
-          </div>
-          <div
+          </a>
+          <a href="#about"
             class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
           >
             About
-          </div>
-          <div
+          </a>
+          <a href="#contact"
             class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
           >
             Contact
-          </div>
+          </a>
         </div>
       </div>
       <!-- ================== RIGHT ================= -->
@@ -65,7 +74,7 @@
           placeholder="Search..."
           class="px-7 py-2 border-[1px] rounded-md hidden"
         />
-        <div class="search ml-3 cursor-pointer hidden md:block">
+        <div class="ml-3 cursor-pointer hidden md:block">
           <img class="h-5 mr-5 mt-1" src="imgs/search.png" alt="" />
         </div>
 
@@ -76,8 +85,8 @@
     <!-- ===================== SLIDER ==================== -->
 
     <div
-      id="home"
-      class="slider md:px-7 md:mx-12 mx-2 md:h-[85vh] flex py-0 flex-col-reverse md:justify-between md:flex-row bg-[#eaeaea]"
+      id="technologies"
+      class="md:px-7 md:mx-12 mx-2 md:h-[85vh] flex py-0 flex-col-reverse md:justify-between md:flex-row bg-[#eaeaea]"
     >
       <div
         class="text-center py-10 px-7 bg-[#d1cfcf] md:bg-transparent md:text-left flex-col md:flex justify-center"
@@ -103,9 +112,15 @@
       </div>
     </div>
 
-    <!-- ================ PROMO SECTION ================== -->
+    <!-- ================ TECHNOLOGIES SECTION ================== -->
+    <h1
+      class="text-xl md:text-3xl font-semibold text-center py-4 underline underline-offset-4"
+    >
+      TECHNOLOGIES STACK
+    </h1>
     <div
-      class="promo md:py-5 md:justify-center mt-4 flex flex-col space-y-2 md:flex-row md:space-y-0"
+      id="projects"
+      class="md:py-5 md:justify-center mt-4 flex flex-col space-y-2 md:flex-row md:space-y-0"
     >
       <div class="item flex mx-2.5 space-x-1 md:flex-col md:w-36 items-center">
         <img src="imgs/ic1.png" class="h-6 md:w-14 md:h-10" alt="" />
@@ -194,10 +209,7 @@
           >
             Take a Look Now!
           </div>
-          <a
-            
-            target="_blank"
-          >
+          <a target="_blank">
             <div
               class="btn px-1 w-4/5 py-2 md:w-[60%] md:ml-[19%] ml-[10%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-gray-800"
             >
@@ -226,10 +238,7 @@
           >
             Take a Look Now!
           </div>
-          <a
-            
-            target="_blank"
-          >
+          <a target="_blank">
             <div
               class="btn px-1 w-4/5 py-2 md:w-[60%] md:ml-[19%] ml-[10%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-gray-800"
             >
@@ -258,10 +267,7 @@
           >
             Take a Look Now!
           </div>
-          <a
-            
-            target="_blank"
-          >
+          <a target="_blank">
             <div
               class="btn px-1 w-4/5 py-2 md:w-[60%] md:ml-[19%] ml-[10%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-gray-800"
             >
@@ -274,55 +280,81 @@
 
     <!-- ============================ BOTTOM ============================== -->
     <div
-      class="w-[100vw] md:w-[100%] md:py-7 md:px-7 flex flex-col md:justify-between md:flex-row h-auto mt-[5rem] space-y-0 bg-gray-100"
+      class="w-[100vw] md:w-[100%] md:py-7 md:px-7 flex flex-col md:justify-around md:flex-row h-auto mt-[5rem] space-y-0 bg-gray-600"
     >
-      <div class="flex flex-col md:flex-row">
-        <ul class="px-5 py-4 space-y-3">
-          <h1 class="font-medium text-lg text-gray-500">Micoroft Store</h1>
-          <li class="text-gray-600 text-xs cursor-pointer">Account Profile</li>
-          <li class="text-gray-600 text-xs cursor-pointer">Download Center</li>
-          <li class="text-gray-600 text-xs cursor-pointer">Returns</li>
-          <li class="text-gray-600 text-xs cursor-pointer">Order Tracking</li>
-        </ul>
-        <ul class="px-5 py-4 space-y-3">
-          <h1 class="font-medium text-lg text-gray-500">Education</h1>
-          <li class="text-gray-600 text-xs cursor-pointer">
-            Microsoft in Education
-          </li>
-          <li class="text-gray-600 text-xs cursor-pointer">
-            Devices for Education
-          </li>
-          <li class="text-gray-600 text-xs cursor-pointer">
-            Microsoft Teams for Education
-          </li>
-          <li class="text-gray-600 text-xs cursor-pointer">
-            Microsoft 365 Education
-          </li>
-        </ul>
-        <ul class="px-5 py-4 space-y-3">
-          <h1 class="font-medium text-lg text-gray-500">Business</h1>
-          <li class="text-gray-600 text-xs cursor-pointer">Micoroft Cloud</li>
-          <li class="text-gray-600 text-xs cursor-pointer">
-            Microsoft Security
-          </li>
-          <li class="text-gray-600 text-xs cursor-pointer">Azure</li>
-          <li class="text-gray-600 text-xs cursor-pointer">
-            Copilot for Microsoft 365
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul class="px-1 py-2 md:py-0 md:mt-[8rem]">
-          <h1 class="text-xs text-gray-800 flex">
-            <img src="imgs/web.png" class="w-10" alt="" />
-            <p class="mt-3">English (Pakistan)</p>
-          </h1>
-        </ul>
-      </div>
+      <ul class="px-4 py-4 space-y-3 md:w-[30%]">
+        <h1 class="font-medium text-lg text-white">ABOUT ME</h1>
+        <hr class="h-[2px] bg-gray-300 md:w-[17rem]" />
+        <p id="about" class="text-white leading-relaxed">
+          I offer my expertise to assist you in website development and frontend
+          design to custom web applications and bug fixes, I can help bring your
+          ideas to life. My skills include Html, CSS, JavaScript, React.js, and
+          Tailwind CSS.
+        </p>
+      </ul>
+      <ul class="px-4 py-4 space-y-3 flex flex-col">
+        <h1 class="font-medium text-lg text-white">MY SERVICES</h1>
+        <hr class="h-[2px] bg-gray-300 md:w-[17rem]" />
+        <a
+          href="https://www.google.com/search?q=what+is+Website+design"
+          target="_blank"
+          class="text-white text-xs cursor-pointer hover:underline hover:underline-offset-4"
+          >Website Design</a
+        >
+        <a
+          href="https://www.google.com/search?q=what+is+Website+Development"
+          target="_blank"
+          class="text-white text-xs cursor-pointer hover:underline hover:underline-offset-4"
+          >Website Development</a
+        >
+        <a
+          href="https://www.google.com/search?q=what+is+Ecommerce+Website"
+          target="_blank"
+          class="text-white text-xs cursor-pointer hover:underline hover:underline-offset-4"
+          >E-Commerce Website</a
+        >
+        <a
+          href="https://www.google.com/search?q=what+is+Graphic+Design"
+          target="_blank"
+          class="text-white text-xs cursor-pointer hover:underline hover:underline-offset-4"
+          >Graphic Design</a
+        >
+      </ul>
+
+      <ul id="contact" class="px-4 py-4 space-y-3">
+        <h1  class="font-medium text-lg text-white">CONTACT DETAILS</h1>
+        <hr class="h-[2px] bg-gray-300 md:w-[17rem]" />
+        <li class="text-white text-xs cursor-pointer">
+          Email : abdulrehan0317@gmail.com
+        </li>
+        <li class="text-white text-xs cursor-pointer">
+          phone : +92 317 2343773
+        </li>
+        <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank">
+          <i
+            class="fa-brands fa-linkedin fa-2xl py-3 md:py-6 cursor-pointer text-gray-50 hover:text-gray-200"
+          ></i>
+        </a>
+        <a href="https://www.instagram.com/abdul.rehan76/" target="_blank">
+          <i
+            class="fa-brands fa-square-instagram fa-2xl md:py-4 cursor-pointer text-gray-50 hover:text-gray-200"
+          ></i>
+        </a>
+        <a href="" target="_blank">
+          <i
+            class="fa-brands fa-square-x-twitter fa-2xl md:py-4 cursor-pointer text-gray-50 hover:text-gray-200"
+          ></i>
+        </a>
+        <a href="https://github.com/abdul-rehan7/" target="_blank">
+          <i
+            class="fa-brands fa-square-github fa-2xl md:py-4 cursor-pointer text-gray-50 hover:text-gray-200"
+          ></i>
+        </a>
+      </ul>
     </div>
 
-    <div class="bar text-center bg-gray-500 py-1 text-gray-200">
-      Copyright &copy; Microsoft 2024 | All Rights Reserved
+    <div class="bar text-center bg-black py-1 text-white">
+      Copyright &copy; 2024 Abdul Rehan | All Rights Reserved
     </div>
 
     <!-- ======================== SCRIPT ======================== -->
