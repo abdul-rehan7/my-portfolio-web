@@ -24,12 +24,13 @@
         </div>
       </div>
       <!-- ================== MID ================= -->
-      <div class="MID  py-1 md:py-2 cursor-pointer w-36 md:order-1 flex">
+      <div class="MID py-1 md:py-2 cursor-pointer w-36 md:order-1 flex">
         <img href=".slider" src="imgs/header.png" alt="" />
         <div
-          class="absolute -translate-x-96 px-7 md:bg-transparent bg-blue-500 mt-10 md:space-x-7 md:mt-5 md:translate-x-36 md:flex features"
+          class="absolute -translate-x-96 px-7 md:bg-transparent bg-blue-500 mt-10 md:space-x-7 md:mt-4 md:translate-x-36 md:flex features"
         >
-          <div  href=".slider"
+          <div
+            href=".slider"
             class="item cursor-pointer hover:underline hover:underline-offset-4 font-semibold active:text-gray-500"
           >
             Home
@@ -58,6 +59,12 @@
       </div>
       <!-- ================== RIGHT ================= -->
       <div class="RIGHT md:order-3 flex">
+        <input
+          type="search"
+          name="searchbar"
+          placeholder="Search..."
+          class="px-7 py-2 border-[1px] rounded-md hidden"
+        />
         <div class="search ml-3 cursor-pointer hidden md:block">
           <img class="h-5 mr-5 mt-1" src="imgs/search.png" alt="" />
         </div>
@@ -68,7 +75,10 @@
 
     <!-- ===================== SLIDER ==================== -->
 
-    <div id="home" class="slider md:px-7 md:mx-12 mx-2 md:h-[85vh] flex py-0 flex-col-reverse md:justify-between md:flex-row bg-[#eaeaea]">
+    <div
+      id="home"
+      class="slider md:px-7 md:mx-12 mx-2 md:h-[85vh] flex py-0 flex-col-reverse md:justify-between md:flex-row bg-[#eaeaea]"
+    >
       <div
         class="text-center py-10 px-7 bg-[#d1cfcf] md:bg-transparent md:text-left flex-col md:flex justify-center"
       >
@@ -87,7 +97,7 @@
           Contact Now >
         </button>
       </div>
-      <div class="img mt-20 md:mt-20 px-7  md:w-[35%]">
+      <div class="img mt-20 md:mt-20 px-7 md:w-[35%]">
         <img src="imgs/profile.png" class="md:hidden" alt="" />
         <img
           src="imgs/profile2.png"
@@ -122,7 +132,7 @@
         <span class="font-semibold">React.js</span>
       </div>
       <div class="item flex mx-4 space-x-2 md:flex-col md:w-36 items-center">
-        <img src="imgs/ic6.png" class="h-5 md:w-11 md:h-10" alt="" />
+        <img src="imgs/ic6.png" class="h-5 md:w-11 md:h-11" alt="" />
         <span class="font-semibold">Next.js</span>
       </div>
     </div>
@@ -139,17 +149,25 @@
       >
         <img src="imgs/proj1.png" class="w-screen" alt="" />
         <div class="material text-left py-2 px-5">
-          <h1 class="font-semibold text-xl">
-            Netfilx Clone
-          </h1>
-          <p class="text-base md:mt-2 pb-4 md:text-xs md:h-24">
-            The next-generation of games. Your goals. Friends and family.
-            Windows 11 was made to bring you closer to everything you love.
-          </p>
+          <h1 class="font-semibold text-2xl">Netfilx Clone</h1>
+          <h1 class="underline text-green-800">Tech Used:</h1>
+
+          <div class="techs my-2 h-[5rem]">
+            <ul> 
+              <li>1. HTML</li>
+              <li>2. CSS</li>
+              <li>3. JavaScript</li>
+            </ul>
+          </div>
           <div
             class="btn px-1 my-0 w-3/5 py-2 md:w-[75%] bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
           >
-            See if Your PC is Ready
+            Take a Look Now!
+          </div>
+          <div
+            class="btn px-1 my-1 w-3/5 py-2 md:w-[75%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+          GitHub
           </div>
         </div>
       </div>
@@ -158,15 +176,23 @@
       >
         <img src="imgs/blank_project.jpg" class="w-screen" alt="" />
         <div class="material text-left py-2 px-5">
-          <h1 class="font-semibold text-xl">Microsoft Edge</h1>
-          <p class="text-base md:mt-2 md:text-xs md:h-24">
-            World-class performance with more privacy, more productivity and
-            more value while you browse.
-          </p>
+          <h1 class="font-semibold text-2xl">Coming Soon</h1>
+          <h1 class="underline text-green-800">Tech Used:</h1>
+
+          <div class="techs my-2 h-[5rem]">
+            <ul> 
+              <!-- Write Tech Used Here  -->
+            </ul>
+          </div>
           <div
-            class="btn px-2 my-3 md:my-7 py-2 w-3/5 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+            class="btn px-1 my-0 w-3/5 py-2 md:w-[75%] bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
           >
-            Download Now
+            Take a Look Now!
+          </div>
+          <div
+            class="btn px-1 my-1 w-3/5 py-2 md:w-[75%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+          GitHub
           </div>
         </div>
       </div>
@@ -175,15 +201,23 @@
       >
         <img src="imgs/blank_project.jpg" class="w-screen" alt="" />
         <div class="material text-left py-2 px-5">
-          <h1 class="font-semibold text-xl">Microsoft One Drive</h1>
-          <p class="text-base md:mt-2 md:text-xs md:h-24">
-            Save your files and photos to OneDrive and access them from any
-            device, anywhere.
-          </p>
+          <h1 class="font-semibold text-2xl">Coming Soon</h1>
+          <h1 class="underline text-green-800">Tech Used:</h1>
+
+          <div class="techs my-2 h-[5rem]">
+            <ul> 
+               <!-- Write Tech Used Here  -->
+            </ul>
+          </div>
           <div
-            class="btn px-2 my-3 py-2 w-2/5 md:my-7 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+            class="btn px-1 my-0 w-3/5 py-2 md:w-[75%] bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
           >
-            Learn More
+            Take a Look Now!
+          </div>
+          <div
+            class="btn px-1 my-1 w-3/5 py-2 md:w-[75%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+          GitHub
           </div>
         </div>
       </div>
@@ -192,22 +226,32 @@
       >
         <img src="imgs/blank_project.jpg" class="w-screen" alt="" />
         <div class="material text-left py-2 px-5">
-          <h1 class="font-semibold text-xl">
-            Designed for life today – and tomorrow
-          </h1>
-          <p class="text-base md:mt-2 md:text-xs md:h-24">
-            Organise your notes and your life.
-          </p>
+          <h1 class="font-semibold text-2xl">Coming Soon</h1>
+          <h1 class="underline text-green-800">Tech Used:</h1>
+
+          <div class="techs my-2 h-[5rem]">
+            <ul> 
+            <!-- Write Tech Used Here  -->
+            </ul>
+          </div>
           <div
-            class="btn px-2 my-3 md:my-0 py-2 w-2/5 bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
+            class="btn px-1 my-0 w-3/5 py-2 md:w-[75%] bg-blue-600 text-center text-white font-bold cursor-pointer active:bg-blue-700"
           >
-            Learn More
+            Take a Look Now!
+          </div>
+          <div
+            class="btn px-1 my-1 w-3/5 py-2 md:w-[75%] bg-black rounded-sm text-center text-white font-bold cursor-pointer active:bg-blue-700"
+          >
+            GitHub
           </div>
         </div>
       </div>
+      
+      </div>
+
+      
     </div>
 
- 
     <!-- ============================ BOTTOM ============================== -->
     <div
       class="w-[100vw] md:w-[100%] md:py-7 md:px-7 flex flex-col md:justify-between md:flex-row h-auto mt-[5rem] space-y-0 bg-gray-100"
@@ -260,5 +304,8 @@
     <div class="bar text-center bg-gray-500 py-1 text-gray-200">
       Copyright &copy; Microsoft 2024 | All Rights Reserved
     </div>
+
+    <!-- ======================== SCRIPT ======================== -->
+    <script src="script.js"></script>
   </body>
 </html>
