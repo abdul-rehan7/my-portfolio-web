@@ -6,7 +6,7 @@ const Navigation = () => {
   const handleClick = () => setClick(!click);
 
   return (
-    <div className=" navbar fixed  bg-black w-[100%]  flex items-center justify-between px-5 py-2  border-b-[1px] border-[rgb(49,49,49)]">
+    <div className=" navbar fixed  bg-black w-[100vw]  flex items-center justify-between px-5 py-2  border-b-[1px] border-[rgb(49,49,49)]">
       {/* LEFT NAVBAR  */}
 
       <nav className="brand text-white  flex items-center text-center md:space-x-10 ">

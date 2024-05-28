@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer space-y-7 md:space-y-0 text-sm bg-[#181818] flex flex-col md:flex-row md:justify-between md:px-20 md:py-16 p-5 ">
+    <div className="footer space-y-7 w-[100vw] md:space-y-0 text-sm bg-[#181818] flex flex-col md:flex-row md:justify-between md:px-20 md:py-16 p-5 ">
       {/* LEFT */}
       <div className="left space-y-1" data-aos="zoom-in-right">
         <div className="line1 flex items-center text-white space-x-2 md:space-y-0 space-y-2">
