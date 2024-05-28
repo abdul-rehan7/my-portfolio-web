@@ -15,38 +15,32 @@ const Navigation = () => {
         </Link>
         <div className={click ? "md:flex hidden" : "visible"}>
           <nav className="transitions bg-[#1f1f1fec] w-[100%] md:bg-transparent md:text-base md:flex-row md:space-x-10 md:flex md:top-0 md:space-y-0  md:relative absolute flex text-center text-2xl space-y-5  top-[3rem] md:left-0 left-0 md:py-0 py-5 flex-col ">
-            <a href="">
-              <Link
-                className="text-[#797979] hover:text-white transitions "
-                to="/"
-              >
-                Home
-              </Link>
-            </a>
-            <a href="">
-              <Link
-                className="text-[#797979] hover:text-white transitions "
-                to="/projects"
-              >
-                Projects
-              </Link>
-            </a>
-            <a href="">
-              <Link
-                className="text-[#797979] hover:text-white transitions "
-                to="/about"
-              >
-                About
-              </Link>
-            </a>
-            <a href="">
-              <Link
-                className="text-[#797979] hover:text-white transitions "
-                to="/contact"
-              >
-                Contact
-              </Link>{" "}
-            </a>
+            <Link
+              className="text-[#797979] hover:text-white transitions "
+              to="/"
+            >
+              Home
+            </Link>
+            <Link
+              className="text-[#797979] hover:text-white transitions "
+              to="/projects"
+            >
+              Projects
+            </Link>
+
+            <Link
+              className="text-[#797979] hover:text-white transitions "
+              to="/about"
+            >
+              About
+            </Link>
+
+            <Link
+              className="text-[#797979] hover:text-white transitions "
+              to="/contact"
+            >
+              Contact
+            </Link>
             <div className={click ? "md:hidden flex" : "visible"}>
               <div className="social space-x-2">
                 <a

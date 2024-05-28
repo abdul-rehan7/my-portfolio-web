@@ -6,15 +6,15 @@ const Footer = () => {
       {/* LEFT */}
       <div className="left space-y-1">
         <div className="line1 flex items-center text-white space-x-2 md:space-y-0 space-y-2">
-          <i class='bx bxs-home md:text-3xl text-xl'></i>
+          <i className='bx bxs-home md:text-3xl text-xl'></i>
           <p className="text-base">Karachi, Pakistan</p>
         </div>
         <div className="line2 flex items-center text-white space-x-2 md:space-y-0 space-y-2">
-          <i class='bx bxs-phone md:text-3xl text-xl'></i>
+          <i className='bx bxs-phone md:text-3xl text-xl'></i>
           <p className="text-base">+92 317 2343 773</p>
         </div>
         <div className="line3 flex items-center text-white space-x-2 md:space-y-0 space-y-2">
-          <i class='bx bx-mail-send md:text-3xl text-xl'></i>
+          <i className='bx bx-mail-send md:text-3xl text-xl'></i>
           <p className="text-base">abdulrehan0317@gmail.com</p>
         </div>
       </div>
