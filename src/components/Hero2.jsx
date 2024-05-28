@@ -12,7 +12,7 @@ class Hero2 extends Component {
               alt=""
             />
           </div>
-          <div className="para px-1  space-y-1 py-1 absolute flex flex-col items-center  text-center w-[100%] top-[40%]"   data-aos="zoom-in">
+          <div className="para px-1  space-y-1 py-1 absolute flex flex-col items-center  text-center w-[100%] top-[40%]">
             <h1 className=" md:text-6xl text-white font-semibold text-2xl ">
               {this.props.heading}
             </h1>
