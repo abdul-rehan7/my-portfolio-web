@@ -7,7 +7,7 @@ const ContactForm = () => {
         action=""
         className="flex text-white flex-col  p-5 space-y-2 md:space-y-5 md:w-[50vw] w-[100vw]"
       >
-        <div className="item">
+        <div className="item" data-aos="zoom-in-up">
           <label>Your Name:</label>
           <input
             type="text"
@@ -15,7 +15,7 @@ const ContactForm = () => {
             className="bg-black  px-2 py-2 w-[100%] rounded-sm"
           />
         </div>
-        <div className="item">
+        <div className="item" data-aos="zoom-in-up">
           <label>Email:</label>
           <input
             type="text"
@@ -24,7 +24,7 @@ const ContactForm = () => {
   px-2 py-2 w-[100%] rounded-sm"
           />
         </div>
-        <div className="item">
+        <div className="item" data-aos="zoom-in-up">
           <label>Subject:</label>
           <input
             type="text"
@@ -33,7 +33,7 @@ const ContactForm = () => {
   px-2 py-2 w-[100%] rounded-sm"
           />
         </div>
-        <div className="item">
+        <div className="item" data-aos="zoom-in-up">
           <label>Message:</label>
           <textarea
             rows="6"

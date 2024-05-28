@@ -10,7 +10,7 @@ const Navigation = () => {
       {/* LEFT NAVBAR  */}
 
       <nav className="brand text-white  flex items-center text-center md:space-x-10 ">
-        <Link to="/" className="text-white text-2xl ">
+        <Link to="/" className="text-white text-2xl " data-aos="zoom-in-right">
           Abdul Rehan
         </Link>
         <div className={click ? "md:flex hidden" : "visible"}>
@@ -99,7 +99,7 @@ const Navigation = () => {
           </a>
         </div>
         <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank">
-          <button className="btn-trans w-[30vw] md:w-[12vw]">
+          <button className="btn-trans w-[30vw] md:w-[12vw]" data-aos="zoom-in-left">
             Let's Connect
           </button>
         </a>
@@ -107,7 +107,7 @@ const Navigation = () => {
           href="https://drive.google.com/file/d/1lIhikrikjm_Kt-8LO2nw6G1g3UWgf16F/view?usp=drive_link"
           target="_blank"
         >
-          <button className="btn-trans w-[30vw] md:w-[12vw]">
+          <button className="btn-trans w-[30vw] md:w-[12vw]" data-aos="zoom-in-left">
             View Resume
           </button>
         </a>

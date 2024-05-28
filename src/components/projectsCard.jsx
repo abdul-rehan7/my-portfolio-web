@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const projectsCard = () => {
   return (
@@ -8,7 +7,7 @@ const projectsCard = () => {
       <div className="container  flex flex-col md:flex-row md:space-y-0 items-center justify-center space-y-5 md:space-x-5 ">
         {/* CARD  */}
 
-        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm">
+        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"   data-aos="zoom-in">
           <div className="items space-y-2 ">
             <img src="/imgs/projs/1.png" alt="" />
             <h1 className="font-semibold">Archiods</h1>
@@ -35,7 +34,7 @@ const projectsCard = () => {
             </a>
           </div>
         </div>
-        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm">
+        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"   data-aos="zoom-in">
           <div className="items space-y-2 ">
             <img src="/imgs/projs/1.png" alt="" />
             <h1 className="font-semibold">Archiods</h1>
@@ -62,7 +61,7 @@ const projectsCard = () => {
             </a>
           </div>
         </div>
-        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm">
+        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"   data-aos="zoom-in">
           <div className="items space-y-2 ">
             <img src="/imgs/projs/1.png" alt="" />
             <h1 className="font-semibold">Archiods</h1>

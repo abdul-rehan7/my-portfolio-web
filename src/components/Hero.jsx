@@ -11,7 +11,7 @@ const Hero = () => {
           alt=""
         />
       </div>
-      <div className="para space-y-1 py-1 absolute flex flex-col items-center  text-center w-[100%] top-[35%]">
+      <div className="para space-y-1 py-1 absolute flex flex-col items-center  text-center w-[100%] top-[35%]"   data-aos="fade-up">
         <p className=" md:text-2xl text-white text-base">
           HI, I AM ABDUL REHAN
         </p>

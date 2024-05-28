@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutContent = () => {
   return (
-    <div className=" flex-col md:space-x-7 md:items-center  md:flex-row space-y-5 bg-[#1c1c1c]  flex p-7 md:w-[100%]">
-      <div className="sec1  text-white flex flex-col items-left space-y-3">
+    <div className=" flex-col md:space-x-7 md:items-center  md:flex-row space-y-5 bg-[#1c1c1c]  flex p-7 md:w-[100%]" >
+      <div className="sec1  text-white flex flex-col items-left space-y-3" data-aos="zoom-in-right">
         <h1 className="text-3xl md:text-5xl font-bold">Who Am I?</h1>
         <p className="text-left font-semibold md:w-[60vw] text-[12px] md:text-xl">
           Front-End Web Developer | HTML5 | CSS3 | TypeScript | React.js
@@ -16,7 +16,7 @@ const AboutContent = () => {
         </p>
         <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank"><div className="btn md:w-[10vw] w-[35vw]">Contact</div></a>
       </div>
-      <div className="flex p-1 justify-end md:w-[35vw]">
+      <div className="flex p-1 justify-end md:w-[35vw]"data-aos="flip-right">
         <img
           src="/imgs/profile.png"
           className=" md:w-[85%] rounded-full "

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer space-y-7 md:space-y-0 text-sm bg-[#181818] flex flex-col md:flex-row md:justify-between md:px-20 md:py-16 p-5 ">
       {/* LEFT */}
-      <div className="left space-y-1">
+      <div className="left space-y-1" data-aos="zoom-in-right">
         <div className="line1 flex items-center text-white space-x-2 md:space-y-0 space-y-2">
           <i className='bx bxs-home md:text-3xl text-xl'></i>
           <p className="text-base">Karachi, Pakistan</p>
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       {/* RIGHT  */}
-      <div className="right md:w-[40vw] space-y-3 text-white ">
+      <div className="right md:w-[40vw] space-y-3 text-white " data-aos="zoom-in-left">
         <h1 className="md:text-xl  font-bold">About The Company</h1>
         <p className="md:text-base">A Dedicated  and profecient developer with a strong commitment to quality and effeciency.</p>
         <div className="social space-x-2">
