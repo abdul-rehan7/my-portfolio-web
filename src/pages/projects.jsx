@@ -9,7 +9,7 @@ const projects = () => {
   return (
     <div>
             <Navigation />
-            <Hero2 heading="MY PROJECTS" para="Some of my Recent Works"/>
+            <Hero2 heading="MY PROJECTS" para="A showcase of my diverse range of projects highlighting my skills "/>
             <ProjectsCard/>
             <Footer/>
             <FooterBar/>

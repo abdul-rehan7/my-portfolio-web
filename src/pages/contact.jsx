@@ -7,7 +7,7 @@ import FooterBar from "../components/FooterBar";
 const contact = () => {
   return <div>
           <Navigation />
-          <Hero2 heading="CONTACT US." para="This is the contact para"/>
+          <Hero2 heading="CONTACT US." para="Feel free to reach out for collaboration, job opportunities, or any queries"/>
           <Footer/>
           <FooterBar/>
   </div>;
