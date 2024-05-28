@@ -11,7 +11,7 @@ const Navigation = () => {
 
       <nav className="brand text-white  flex items-center text-center md:space-x-10 ">
         <Link to="/" className="text-white text-2xl ">
-          Portfolio.
+          Abdul Rehan
         </Link>
         <div className={click ? "md:flex hidden" : "visible"}>
           <nav className="transitions bg-[#1f1f1fec] w-[100%] md:bg-transparent md:text-base md:flex-row md:space-x-10 md:flex md:top-0 md:space-y-0  md:relative absolute flex text-center text-2xl space-y-5  top-[3rem] md:left-0 left-0 md:py-0 py-5 flex-col ">

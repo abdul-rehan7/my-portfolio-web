@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import FooterBar from "../components/FooterBar";
 import TechStack from "../components/TechStack";
+import ProjectsCard from "../components/projectsCard";
 
 const home = () => {
   return (
@@ -11,6 +12,7 @@ const home = () => {
       <Navigation />
       <Hero/>
       <TechStack/>
+      <ProjectsCard/>
       <Footer/>
       <FooterBar/>
     
