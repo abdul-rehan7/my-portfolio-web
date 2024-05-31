@@ -7,12 +7,17 @@ const projectsCard = () => {
       <div className="container  flex flex-col md:flex-row md:space-y-0 items-center justify-center space-y-5 md:space-x-5 ">
         {/* CARD  */}
 
-        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"   data-aos="zoom-in">
+        <div
+          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"
+          data-aos="zoom-in"
+        >
           <div className="items space-y-2 ">
             <img src="/imgs/projs/1.png" alt="" />
             <h1 className="font-semibold">Microsoft Clone</h1>
             <p className="text-sm font-normal text-left h-[22vh] md:h-[18vh] ">
-            I built a Microsoft clone that mimics the core functionalities of Office applications, enabling document creation, editing, and cloud storage integration.
+              I built a Microsoft clone that mimics the core functionalities of
+              Office applications, enabling document creation, editing, and
+              cloud storage integration.
             </p>
           </div>
           <div className="buttons flex justify-evenly">
@@ -32,13 +37,17 @@ const projectsCard = () => {
             </a>
           </div>
         </div>
-        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"   data-aos="zoom-in">
+        <div
+          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"
+          data-aos="zoom-in"
+        >
           <div className="items space-y-2 ">
             <img src="/imgs/projs/2.png" alt="" />
             <h1 className="font-semibold">Netflix Clone</h1>
             <p className="text-sm font-normal text-left h-[22vh] md:h-[18vh] ">
-            
-I created a Netflix clone that replicates the streaming service's interface, allowing users to browse, search, and watch videos seamlessly.
+              I created a Netflix clone that replicates the streaming service's
+              interface, allowing users to browse, search, and watch videos
+              seamlessly.
             </p>
           </div>
           <div className="buttons flex justify-evenly">
@@ -58,12 +67,17 @@ I created a Netflix clone that replicates the streaming service's interface, all
             </a>
           </div>
         </div>
-        <div className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"   data-aos="zoom-in">
+        <div
+          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"
+          data-aos="zoom-in"
+        >
           <div className="items space-y-2 ">
             <img src="/imgs/projs/3.png" alt="" />
             <h1 className="font-semibold">React Project</h1>
             <p className="text-sm font-normal text-left h-[22vh] md:h-[18vh] ">
-            Created my first React project, replicating the Nike's clean and dynamic interface, showcasing products, and providing an intuitive shopping experience.
+              Created my first React project, replicating the Nike's clean and
+              dynamic interface, showcasing products, and providing an intuitive
+              shopping experience.
             </p>
           </div>
           <div className="buttons flex justify-evenly">

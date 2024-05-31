@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import FooterBar from "../components/FooterBar";
 import TechStack from "../components/TechStack";
 import ProjectsCard from "../components/projectsCard";
+import Education from "../components/Education";
 
 const home = () => {
   return (
@@ -13,6 +14,7 @@ const home = () => {
       <Hero/>
       <TechStack/>
       <ProjectsCard/>
+      <Education/>
       <Footer/>
       <FooterBar/>
     
