@@ -2,8 +2,8 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="text-white flex flex-col items-center md:flex-row md:justify-evenly  md:py-7 py-10   space-y-20 bg-[#070707] md:space-y-36 ">
-      <div className="first bg-[#ffffff1b] rounded-md p-6 md:w-[35vw] w-[90vw] h-auto" data-aos="fade-right">
+    <div className="text-black flex flex-col items-center md:flex-row md:justify-evenly  md:py-7 py-10   space-y-20 bg-[#dedede] md:space-y-36 ">
+      <div className="first bg-[#b3b3b3] rounded-md p-6 md:w-[35vw] w-[90vw] h-auto" data-aos="fade-right">
         <h1 className=" md:text-5xl text-4xl font-medium mt-[-3rem] ">Education</h1>
         <div className=" py-4   font-normal space-y-3  mt-[5%]">
           <h1 className="text-lg py-3 ">PROFESSIONAL COURSES</h1>
@@ -24,7 +24,7 @@ const Education = () => {
           </h1>
         </div>
       </div>
-      <div className="Second bg-[#ffffff1b] rounded-md p-6 md:w-[35vw] w-[90vw] h-auto" data-aos="fade-left">
+      <div className="Second bg-[#b3b3b3] rounded-md p-6 md:w-[35vw] w-[90vw] h-auto" data-aos="fade-left">
         <h1 className=" md:text-5xl text-4xl font-medium mt-[-3rem]  ">Experience</h1>
         <div className="text  md:py-4 py-2 font-normal space-y-3  mt-[5%]">
           <h1 className="text-lg md:py-4 py-2  ">SENIOR STUDENT</h1>

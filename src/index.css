@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 .btn-trans {
-  @apply border-[1px] cursor-pointer hover:bg-white hover:text-black border-[#848484] transition-all text-white py-[.5rem] px-[.5rem] rounded-md;
+  @apply border-[1px] cursor-pointer hover:bg-white bg-black hover:text-black border-[#848484] transition-all text-white py-[.5rem] px-[.5rem] rounded-md;
 }
 
 .btn {
@@ -34,7 +34,6 @@
   transition: 0.3s;
 }
 .navbar {
-  position: fixed; /* Ensure it's not absolute or fixed if not necessary */
   z-index: 1000; /* High z-index to keep it on top */
 }
 .footer {
@@ -53,11 +52,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.418);
   opacity: 0.7;
 }
 
-.stacklist i {
-  color: #4d4d4d;
-  cursor: pointer;
-}

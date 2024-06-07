@@ -2,13 +2,13 @@ import React from "react";
 
 const projectsCard = () => {
   return (
-    <div className="Projects text-white text-center p-7 space-y-5">
+    <div className="Projects bg-gray-100 text-black text-center p-7 space-y-5">
       <h1 className="text-2xl font-semibold">PROJECTS</h1>
-      <div className="container  flex flex-col md:flex-row md:space-y-0 items-center justify-center space-y-5 md:space-x-5 ">
+      <div className="container flex flex-col md:flex-row md:space-y-0 items-center justify-center space-y-5 md:space-x-5 ">
         {/* CARD  */}
 
         <div
-          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"
+          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-gray-300 p-2 rounded-sm"
           data-aos="zoom-in"
         >
           <div className="items space-y-2 ">
@@ -38,7 +38,7 @@ const projectsCard = () => {
           </div>
         </div>
         <div
-          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"
+          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-gray-300 p-2 rounded-sm"
           data-aos="zoom-in"
         >
           <div className="items space-y-2 ">
@@ -68,7 +68,7 @@ const projectsCard = () => {
           </div>
         </div>
         <div
-          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-[#1b1b1b] p-2 rounded-sm"
+          className="card space-y-2 md:w-[25%] w-[90vw] h-auto bg-gray-300 p-2 rounded-sm"
           data-aos="zoom-in"
         >
           <div className="items space-y-2 ">
