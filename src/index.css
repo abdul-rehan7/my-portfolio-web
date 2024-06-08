@@ -6,6 +6,7 @@
 
 html,
 body {
+  background:#000 ;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -43,7 +44,7 @@ body {
 }
 
 .navbar {
-  background-color: #bb0000;
+  background-color: #000;
   z-index:100; /* High z-index to keep it on top */
 }
 
