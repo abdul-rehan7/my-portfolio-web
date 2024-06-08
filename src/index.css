@@ -41,9 +41,13 @@ body {
 .transitions {
   transition: 0.3s;
 }
+
 .navbar {
-  z-index: 1000; /* High z-index to keep it on top */
+  background-color: black;
+  z-index:100; /* High z-index to keep it on top */
 }
+
+
 .footer {
   position: relative; /* Ensure it's not absolute or fixed */
   z-index: 1; /* Lower z-index compared to navbar */
@@ -61,5 +65,5 @@ body {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.418);
-  opacity: 0.7;
+  opacity: 0.5;
 }

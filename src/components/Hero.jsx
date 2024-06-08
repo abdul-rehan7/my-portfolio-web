@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero bg-white  ">
       <div className="mask">
-        <video autoplay loop muted className="h-auto w-[100%] top-0">
+        <video autoPlay loop muted className="h-auto w-[100%] top-0">
           <source src="/imgs/bgVideo.mp4" type="video/mp4" />
         </video>
       </div>
@@ -28,6 +28,8 @@ const Hero = () => {
           <Link to="/contact">
             <button className="btn-trans text-xs md:text-base w-[20vw] md:w-[15vw]">Contact</button>
           </Link>
+
+
         </div>
       </div>
     </div>
