@@ -3,19 +3,15 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="hero bg-white  ">
+    <div className="hero ">
       <div className="mask">
-        <video autoPlay loop muted className="h-auto w-[100%] top-0">
-          <source src="/imgs/bgVideo.mp4" type="video/mp4" />
-        </video>
+        <img src="/imgs/hero-bg.png" className="h-auto w-[100%] top-0"></img>
       </div>
       <div
         className="para space-y-1 py-1 absolute flex flex-col items-center  text-center w-[100%] top-[25%]"
         data-aos="zoom-in"
       >
-        <p className=" md:text-2xl text-white text-xs">
-          HI, I AM ABDUL REHAN
-        </p>
+        <p className=" md:text-2xl text-white text-xs">HI, I AM ABDUL REHAN</p>
         <h1 className=" md:text-7xl text-white font-semibold text-xl ">
           WEBSITE DEVELOPER.
         </h1>
@@ -26,12 +22,13 @@ const Hero = () => {
             </button>
           </Link>
           <Link to="/contact">
-            <button className="btn-trans text-xs md:text-base w-[20vw] md:w-[15vw]">Contact</button>
+            <button className="btn-trans text-xs md:text-base w-[20vw] md:w-[15vw]">
+              Contact
+            </button>
           </Link>
-
-
         </div>
       </div>
+
     </div>
   );
 };

@@ -6,7 +6,7 @@
 
 html,
 body {
-  background:#000 ;
+  background:rgb(243 244 246) ;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -45,7 +45,7 @@ body {
 
 .navbar {
   background-color: #000;
-  z-index:100; /* High z-index to keep 
+   z-index:100;  /* High z-index to keep  */
 }
 
 
@@ -54,8 +54,14 @@ body {
   z-index: 1; /* Lower z-index compared to navbar */
 }
 .hero {
+  clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%);
   position: relative; /* Ensure it's not absolute or fixed */
   z-index: 1;
+
+}
+.hero img{
+background: red;
+
 }
 
 .mask::after {
@@ -65,13 +71,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.418);
-  opacity: 0.5;
-}
+  background:linear-gradient(90deg,#000000, #e9e9e9) ;
+  opacity: 0.5;}
 
 
 #Loader{
-  background: #000 url(/public/imgs/loader.gif) center no-repeat;
+  background: #000 url(/imgs/loader.gif) center no-repeat;
   background-size: 50%;
   height: 100vh;
   width: 100%;
@@ -79,3 +84,4 @@ body {
   position: fixed;
   display: block;
 }
+
