@@ -6,37 +6,37 @@ const Navigation = () => {
   const handleClick = () => setClick(!click);
 
   return (
-    <div className=" navbar  md:relative md:bg-transparent w-[100vw]  flex items-center justify-between px-5 py-2">
+    <div className=" navbar relative md:bg-transparent bg-black w-[100vw]  flex items-center justify-between px-5 py-2">
       {/* LEFT NAVBAR  */}
 
-      <nav className="brand text-black  flex items-center text-center md:space-x-10 ">
+      <nav className="brand text-black   group flex items-center text-center md:space-x-10 ">
         <Link to="/" className="text-white text-xl md:text-2xl " data-aos="zoom-in-right">
           Abdul Rehan
         </Link>
-        <div className={click ? "md:flex hidden" : "visible"}>
-          <nav className="transitions bg-[#000000d4] w-[100%] z-50 md:bg-transparent md:text-base md:flex-row md:space-x-10 md:flex md:top-0 md:space-y-0  md:relative absolute flex text-center text-2xl space-y-5  top-[2rem] md:left-0 left-0 md:py-0 py-5 flex-col ">
+        <div className={click ? "md:flex hidden"  :  "visible "}>
+          <nav className="transitions bg-[#000000ef] w-[100%] z-50 md:bg-transparent md:text-base md:flex-row md:space-x-10 md:flex md:top-0 md:space-y-0  md:relative absolute flex text-center text-2xl space-y-5  top-[2.5rem] md:left-0 left-0 md:py-0 py-5 flex-col ">
             <Link
-              className="text-white hover:text-gray-500 transitions "
+              className="text-white hover:text-yellow-400 transitions "
               to="/"
             >
               Home
             </Link>
             <Link
-              className="text-white hover:text-gray-500 transitions "
+              className="text-white hover:text-yellow-400 transitions "
               to="/projects"
             >
               Projects
             </Link>
 
             <Link
-              className="text-white hover:text-gray-500 transitions "
+              className="text-white hover:text-yellow-400 transitions "
               to="/about"
             >
               About
             </Link>
 
             <Link
-              className="text-white hover:text-gray-500 transitions "
+              className="text-white hover:text-yellow-400 transitions "
               to="/contact"
             >
               Contact
@@ -107,9 +107,6 @@ const Navigation = () => {
           href="https://drive.google.com/file/d/1lIhikrikjm_Kt-8LO2nw6G1g3UWgf16F/view?usp=drive_link"
           target="_blank"
         >
-          <button className="btn-trans w-[30vw] md:w-[10vw]" data-aos="zoom-in-left">
-            View Resume
-          </button>
         </a>
       </div>
     </div>

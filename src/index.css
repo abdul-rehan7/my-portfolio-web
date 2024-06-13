@@ -16,12 +16,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .btn-trans {
-  @apply border-[1px] cursor-pointer hover:bg-white bg-black hover:text-black border-[#848484] transition-all text-white py-[.5rem] px-[.5rem] rounded-md;
+  @apply border-[1px] cursor-pointer hover:bg-[#ffffff9d] bg-[#fff0] hover:text-black border-[#848484] transition-all text-white py-[.4rem] px-[.5rem] rounded-md;
 }
 
 .btn {
   background: #f4ce14;
-  padding: 0.5rem 0.5rem;
+  padding: 0.3rem 0.3rem;
   color: black;
   border-radius: 4px;
   cursor: pointer;
@@ -29,12 +29,12 @@ body {
   border: 1px solid white;
 }
 .btn:hover {
-  filter: drop-shadow(0px 0px 7px #fefa11);
+  filter: drop-shadow(0px 0px 7px #ffd900);
 }
 .btn-light {
   background: transparent;
   border-radius: 4px;
-  padding: 5px 5px;
+  padding: 0.3rem 0.3rem;
   color: white;
   text-align: center;
   border: 1px solid white;
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar {
-  background-color: #000;
+ 
    z-index:100;  /* High z-index to keep  */
 }
 
@@ -55,13 +55,10 @@ body {
 }
 .hero {
   clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%);
+  height: 100vh;
+  top: -4rem;
   position: relative; /* Ensure it's not absolute or fixed */
   z-index: 1;
-
-}
-.hero img{
-background: red;
-
 }
 
 .mask::after {
@@ -71,9 +68,20 @@ background: red;
   position: absolute;
   top: 0;
   left: 0;
-  background:linear-gradient(90deg,#000000, #e9e9e9) ;
-  opacity: 0.5;}
+  background:linear-gradient(90deg,#000000e6, #0000000c) ;
+  opacity: 0.9;}
 
+  @media (max-width: 600px){
+    .mask::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background:linear-gradient(90deg,#000000bd, #ffffff17) ;
+      opacity: 0.9;}
+  }
 
 #Loader{
   background: #000 url(/imgs/loader.gif) center no-repeat;
@@ -84,4 +92,5 @@ background: red;
   position: fixed;
   display: block;
 }
+
 

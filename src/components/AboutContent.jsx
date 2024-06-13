@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutContent = () => {
   return (
-    <div className=" flex-col md:space-x-7 md:items-center  md:flex-row space-y-5 bg-[#e2e2e2]  flex p-7 md:w-[100%]" >
+    <div className="about-cont h-[100vh] flex-col md:space-x-7 md:items-center  md:flex-row space-y-5 bg-gray-100  flex p-7 md:w-[100%]" >
       <div className="sec1  text-black flex flex-col items-left space-y-3" data-aos="zoom-in-right">
         <h1 className="text-3xl md:text-5xl font-bold">Who Am I?</h1>
         <p className="text-left font-semibold md:w-[60vw] text-[12px] md:text-xl">
