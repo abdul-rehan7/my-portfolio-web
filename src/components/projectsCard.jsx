@@ -53,7 +53,7 @@ const projectsCard = () => {
           <div className="buttons flex justify-evenly">
             <a
               className="btn  w-[40%]"
-              href="https://ar-netflix.vercel.app/"
+              href="https://ar-netflix-rehanmirza76s-projects.vercel.app/"
               target="_blank"
             >
               Visit
@@ -73,24 +73,24 @@ const projectsCard = () => {
         >
           <div className="items space-y-2 ">
             <img src="/imgs/projs/3.png" alt="" />
-            <h1 className="font-semibold">React Project</h1>
+            <h1 className="font-semibold">Ecommerce Store</h1>
             <p className="text-sm font-normal text-left h-[22vh] md:h-[18vh] ">
-              Created my first React project, replicating the Nike's clean and
-              dynamic interface, showcasing products, and providing an intuitive
-              shopping experience.
+              Your one-stop destination for all your shopping needs.Wide range
+              of high-quality products at unbeatable prices.Shop with us today
+              and discover the Mega Mart difference!
             </p>
           </div>
           <div className="buttons flex justify-evenly">
             <a
               className="btn  w-[40%]"
-              href="https://www.google.com/search?q=React&rlz"
+              href="https://mega-mart7.vercel.app/"
               target="_blank"
             >
               Visit
             </a>
             <a
               className="btn-trans w-[40%]"
-              href="https://www.google.com/search?q=GitHub&rlz"
+              href="https://github.com/abdul-rehan7/Web-dev-projects/tree/main/Ecommerce%20Website"
               target="_blank"
             >
               GitHub
