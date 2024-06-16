@@ -16,7 +16,7 @@ const AboutContent = () => {
         </p>
         <a href="https://www.linkedin.com/in/abdul-rehan/" target="_blank"><div className="btn md:w-[10vw] w-[35vw]">Contact</div></a>
       </div>
-      <div className="flex p-1 justify-end md:w-[35vw]"data-aos="flip-right">
+      <div className="flex p-1 justify-end w-[80vw] md:w-[35vw] "data-aos="flip-right">
         <img
           src="/imgs/profile.png"
           className=" md:w-[85%] rounded-full "
